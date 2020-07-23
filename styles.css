@@ -1,0 +1,174 @@
+html,
+body {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Font rules */
+
+h1 {
+  font-size: 5rem;
+  color: #FFF;
+  font-family: "Poppins";
+  letter-spacing: 2px;
+  margin-left: 2rem;
+}
+
+h2 {
+  font-family: "Poppins";
+  color: #ff9a73;
+}
+
+p {
+  line-height: 1.7;
+  font-family: "Poppins";
+  font-size: 1rem;
+}
+
+/* Navigation */
+
+nav {
+  height: 4rem;
+  overflow: hidden;
+}
+
+nav ul {
+  margin-right: 4.5rem;
+  display: block;
+  float: right;
+}
+
+nav li {
+  font-family: "Poppins";
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  list-style: none;
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+}
+
+nav img {
+  height: auto;
+  width: 2.5rem;
+  margin-top: 0.7rem;
+  margin-left: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+  font-style: italic;
+  color: #ff9a73;
+}
+
+/* Body */
+
+.header {
+  text-align: center;
+  background-image: url('https://images.unsplash.com/photo-1580894908361-967195033215?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 10rem 0;
+  max-height: 500px;
+  text-shadow: #000 0rem 0rem 6.25rem;
+}
+
+.main {
+  width: 100%;
+}
+
+.text {
+  width: 70%;
+  padding: 0rem;
+  margin: 2.5rem auto;
+}
+
+.text h2 {
+  text-align: center;
+  line-height: 0.5;
+}
+
+.text p {
+  width: 80%;
+  text-align: center;
+}
+
+#img-container1 {
+  background-image: url("https://images.unsplash.com/photo-1508739826987-b79cd8b7da12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2532&q=80");
+  background-position: left;
+  background-size: cover;
+  text-align: center;
+  padding: 10rem 0;
+  font-style: italic;
+  letter-spacing: 0.25rem;
+}
+
+#img-container1 h2 {
+  color: #FFF;
+  text-shadow: 1rem 1rem 2.5rem #000000;
+  font-size: 2.5rem;
+}
+
+#img-container2 {
+  background-image: url("https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+  background-position: left;
+  background-size: cover;
+  text-align: center;
+  padding: 10rem 0;
+  font-style: italic;
+  letter-spacing: 0.25rem;
+}
+
+#img-container2 h2 {
+  color: #FFF;
+  text-shadow: 1rem 1rem 4.5rem #000000;
+  font-size: 2.5rem;
+}
+
+footer {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 550px)
+{
+  .header {
+    background-position: right;
+  }
+
+  .text h2 {
+    line-height: 1.2;
+  }
+
+  .text {
+    width: 90%;
+    padding: 0rem;
+    margin: 2.5rem auto;
+  }
+}
+
+@media only screen and (max-width: 1000px)
+{
+  .text {
+    width: 90%;
+    padding: 0rem;
+    margin: 2.5rem auto;
+  }
+
+  #img-container2 {
+    background-position: center;
+}
